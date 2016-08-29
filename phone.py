@@ -16,6 +16,8 @@ def enter_name():
     name = input("enter name: ")
     return name
 
+
+
 def create_contact(scontact):
     scontact = enter_contact()
     if check_contact(scontact):
